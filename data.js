@@ -1,7 +1,7 @@
 leafData = [
     {
       ID: "til_floterracity",
-      Name: "Floterra City",
+      Name: "Nunya",
       Description: "The capital city of Floterra",
       Type: "Major City",
       Continent: "Floterra",
@@ -10,7 +10,7 @@ leafData = [
     },
     {
       ID: "til_motreg",
-      Name: "Motreg",
+      Name: "Suck it",
       Description: "A small town on the west side of Floterra",
       Type: "Town",
       Continent: "Floterra",
@@ -19,7 +19,7 @@ leafData = [
     },
     {
       ID: "til_lumeroth",
-      Name: "Lumeroth",
+      Name: "Reckt",
       Description: "A town midway from the city to Flamari Castle",
       Type: "Town",
       Continent: "Floterra",
@@ -28,7 +28,7 @@ leafData = [
     },
     {
       ID: "til_thegrove",
-      Name: "Floterra Grove",
+      Name: "Don't trip",
       Description: "A grove :)",
       Type: "Landmark",
       Continent: "Floterra",
@@ -37,7 +37,7 @@ leafData = [
     },
     {
       ID: "til_zephyr",
-      Name: "Zephyr Tower",
+      Name: ":)",
       Description: "Tower of the :)",
       Type: "Wizard Tower",
       Continent: "Floterra",
@@ -46,7 +46,7 @@ leafData = [
     },
     {
       ID: "til_trident",
-      Name: "The Trident",
+      Name: "YO MOMMA",
       Description: "Tower of the :)",
       Type: "Wizard Tower",
       Continent: "Floterra",
@@ -55,7 +55,7 @@ leafData = [
     },
     {
       ID: "til_satar",
-      Name: "Satar Castle",
+      Name: "castle duh",
       Description: "Castle offfffff ??? :)",
       Type: "Castle",
       Continent: "Floterra",
@@ -64,7 +64,7 @@ leafData = [
     },
     {
       ID: "til_highplains",
-      Name: "High Plainstower",
+      Name: "tower duh",
       Description: "Tower of the :)",
       Type: "Wizard Tower",
       Continent: "Floterra",
@@ -73,7 +73,7 @@ leafData = [
     },
     {
       ID: "til_flametower",
-      Name: "Tower of Flame",
+      Name: "tower",
       Description: "Tower of the :)",
       Type: "Wizard Tower",
       Continent: "Floterra",
@@ -82,7 +82,7 @@ leafData = [
     },
     {
       ID: "til_flamar",
-      Name: "Flamar Castle",
+      Name: "castle",
       Description: "Castle and home of worship",
       Type: "Castle",
       Continent: "Floterra",
@@ -91,7 +91,7 @@ leafData = [
     },
     {
       ID: "til_zatar",
-      Name: "Zatar",
+      Name: "thingy",
       Description: "A village :)",
       Type: "Town",
       Continent: "Floterra",

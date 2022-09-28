@@ -6,17 +6,49 @@
     <link rel="stylesheet" href="scripts/leaflet.css">
     <script src="scripts/leaflet.js"></script>
     <script src="data.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body style="height: 100%;margin: 0;">
     <div id="map" style="width: 100%; height: 100%; background: #000000;"></div>
     <script type="text/javascript">
-      var myIcon = L.icon({
+      var blueIcon = L.icon({
         iconUrl: 'scripts/images/custom_icon/marker-icon-blue.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [0, -42],
-    });
+      });
+      var redIcon = L.icon({
+        iconUrl: 'scripts/images/custom_icon/marker-icon-red.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -42],
+      });
+      var greenIcon = L.icon({
+        iconUrl: 'scripts/images/custom_icon/marker-icon-green.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -42],
+      });
+      var blackIcon = L.icon({
+        iconUrl: 'scripts/images/custom_icon/marker-icon-black.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -42],
+      });
+      var lightblueIcon = L.icon({
+        iconUrl: 'scripts/images/custom_icon/marker-icon-lightblue.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -42],
+      });
+      var whiteIcon = L.icon({
+        iconUrl: 'scripts/images/custom_icon/marker-icon-white.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [0, -42],
+      });
+
   //Creating the Map
     var map = L.map('map').setView([0, 0], 0);
     L.tileLayer('map/{z}/{x}/{y}.png', {
@@ -40,11 +72,11 @@
   for (const element of leafData) {
     window[element["ID"]] = element["ID"]
     var dataID = element["ID"];
-    var dataID = L.marker([element["X"], element["Y"]]).bindPopup(`<b>${element["Name"]}</b>`).addTo(map);
+    var dataID = L.marker([element["X"], element["Y"]], {
+      icon:blueIcon,
+    }).bindPopup(`<b>${element["Name"]}</b>`).addTo(map);
     mg_majorcity.push(dataID)
   }
-  console.log(til_floterracity)
-
 
     </script>
   </body>

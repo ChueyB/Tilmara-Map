@@ -1,0 +1,12 @@
+ID,Name,Description,Type,Continent,X,Y
+til_floterracity,Floterra City,The capital city of Floterra,Major City,Floterra,-31.503629,-19.731445
+til_motreg,Motreg,A small town on the west side of Floterra,Town,Floterra,-28.149503,-24.082031
+til_lumeroth,Lumeroth,A town midway from the city to Flamari Castle,Town,Floterra,-28.844674,-14.0625
+til_thegrove,Floterra Grove,A grove :),Landmark,Floterra,-29.496988,-11.425781
+til_zephyr,Zephyr Tower,Tower of the :),Wizard Tower,Floterra,-33.504759,-27.333984
+til_trident,The Trident,Tower of the :),Wizard Tower,Floterra,-32.842674,-9.580078
+til_satar,Satar Castle,Castle offfffff ??? :),Castle,Floterra,-25.958045,-18.28125
+til_highplains,High Plainstower,Tower of the :),Wizard Tower,Floterra,-20.262197,-26.05957
+til_flametower,Tower of Flame,Tower of the :),Wizard Tower,Floterra,-20.879343,-7.866211
+til_flamar,Flamar Castle,Castle and home of worship,Castle,Floterra,-20.879343,-7866211
+til_zatar,Zatar,A village :),Town,Floterra,-21.493964,-18.369141
